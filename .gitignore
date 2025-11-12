@@ -1,0 +1,42 @@
+# Python 编译产物
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# 测试/工具缓存
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 构建与打包
+build/
+dist/
+*.egg-info/
+
+# Sphinx 文档构建产物（你项目里有 build/html 等）
+build/
+# 如果你把文档构建在别的目录，也一并忽略：
+# docs/_build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS 杂项
+.DS_Store
+Thumbs.db
+
+# 环境变量/密钥
+.env
+*.env
